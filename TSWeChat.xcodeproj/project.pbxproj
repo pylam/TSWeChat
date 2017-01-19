@@ -136,6 +136,7 @@
 		AEE69C161C81B6DD00C69224 /* TSChatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE69C151C81B6DD00C69224 /* TSChatModel.swift */; };
 		AEE69C1B1C81B97F00C69224 /* TSWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE69C1A1C81B97F00C69224 /* TSWebViewController.swift */; };
 		AEE69C1F1C81BF1F00C69224 /* TSConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE69C1E1C81BF1F00C69224 /* TSConfig.swift */; };
+		E72DA5FA1E3067A200E06C7B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E72DA5F91E3067A200E06C7B /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -284,6 +285,7 @@
 		AEE69C151C81B6DD00C69224 /* TSChatModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSChatModel.swift; sourceTree = "<group>"; };
 		AEE69C1A1C81B97F00C69224 /* TSWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSWebViewController.swift; sourceTree = "<group>"; };
 		AEE69C1E1C81BF1F00C69224 /* TSConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSConfig.swift; sourceTree = "<group>"; };
+		E72DA5F91E3067A200E06C7B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		EEDE4F6B7BF2C153C58B4744 /* Pods_TSWeChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TSWeChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE685E6D2F38288FF2725A99 /* Pods-TSWeChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TSWeChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TSWeChat/Pods-TSWeChat.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -293,6 +295,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E72DA5FA1E3067A200E06C7B /* UIKit.framework in Frameworks */,
 				69BF07AD42EB3D03A06DA8A5 /* Pods_TSWeChat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -678,6 +681,7 @@
 		CFBA8E35C9A514AC427FEB7E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E72DA5F91E3067A200E06C7B /* UIKit.framework */,
 				EEDE4F6B7BF2C153C58B4744 /* Pods_TSWeChat.framework */,
 			);
 			name = Frameworks;
@@ -732,15 +736,17 @@
 			attributes = {
 				CLASSPREFIX = TS;
 				LastSwiftUpdateCheck = 0720;
-				LastUpgradeCheck = 0810;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = Hilen;
 				TargetAttributes = {
 					AE92B5E01C3FF73000968A3A = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 6FC4832276;
 						LastSwiftMigration = 0810;
 					};
 					AE92B5F41C3FF73000968A3A = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 6FC4832276;
 						LastSwiftMigration = 0810;
 						TestTargetID = AE92B5E01C3FF73000968A3A;
 					};
@@ -1078,6 +1084,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 6FC4832276;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "$(SRCROOT)/TSWeChat/Supportting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -1101,6 +1108,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 6FC4832276;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "$(SRCROOT)/TSWeChat/Supportting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -1120,6 +1128,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6FC4832276;
 				INFOPLIST_FILE = TSWeChatTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Hilen.TSWeChatTests;
@@ -1133,6 +1142,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6FC4832276;
 				INFOPLIST_FILE = TSWeChatTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Hilen.TSWeChatTests;
